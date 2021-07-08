@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shopapp/models/barang.dart';
+import 'package:shopapp/screens/detail/components/rating.dart';
 
 import '../../../config.dart';
 import 'specification.dart';
@@ -40,7 +41,7 @@ class Content extends StatelessWidget {
                       SizedBox(height: kDefaultPaddin / 2),
                       Description(barang: barang),
                       SizedBox(height: kDefaultPaddin / 2),
-                      SizedBox(height: kDefaultPaddin / 2),
+                      Rating(barang: barang),
                     ],
                   ),
                 ),
