@@ -2,7 +2,12 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:shopapp/screens/catalog/components/content.dart';
 
-class Catalog extends StatelessWidget {
+class Catalog extends StatefulWidget {
+  @override
+  _CatalogState createState() => _CatalogState();
+}
+
+class _CatalogState extends State<Catalog> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
